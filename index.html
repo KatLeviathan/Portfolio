@@ -28,11 +28,59 @@
         </section>
         <section id="portfolio">
             <h2>Portfolio</h2>
-            <!-- Add your portfolio items here -->
+            <div class="portfolio-container">
+                <div class="portfolio-item">
+                    <h3>Movie Hub</h3>
+                    <a href="https://ehsanh2001.github.io/CineConnect/" target="_blank">
+                        <img src="assets/Cine-Connect.png" alt="Movie Hub">
+                    </a>
+                    <a href="https://github.com/ehsanh2001/CineConnect" target="_blank">View Repo</a>
+                </div>
+                
+                <div class="portfolio-item">
+                    <h3>Social Media App</h3>
+                    <a href="https://mini-media-webapp.onrender.com/" target="_blank">
+                        <img src="assets/posts.png" alt="Social Media App">
+                    </a>
+                    <a href="https://github.com/amandeepsandhu13/mini_media_webapp" target="_blank">View Repo</a>
+                </div>
+                
+
+                <div class="portfolio-item">
+                    <h3>Blog Website</h3>
+                    <a href="https://katleviathan.github.io/kats-n-blogs/index.html" target="_blank">
+                        <img src="assets/Blog.png" alt="Blog Website">
+                    </a>
+                    <a href="https://github.com/KatLeviathan/kats-n-blogs" target="_blank">View Repo</a>
+                </div>
+                <div class="portfolio-item">
+                    <h3>Weather Tracker</h3>
+                    <a href="https://katleviathan.github.io/Cloudy/" target="_blank">
+                        <img src="assets/Weather.png" alt="Weather Tracking app">
+                    </a>
+                    <a href="https://github.com/KatLeviathan/Cloudy" target="_blank">View Repo</a>
+                </div>
+                <div class="portfolio-item">
+                    <h3>E-Commerce Back-end</h3>
+                    <a href="https://github.com/KatLeviathan/Shopping-Spree" target="_blank">
+                        <img src="assets/ORM.png" alt="An application for grouping shopping items together">
+                    </a>
+                    <a href="https://github.com/KatLeviathan/Shopping-Spree" target="_blank">View Repo</a>
+                </div>
+                <div class="portfolio-item">
+                    <h3>SQL Back-end</h3>
+                    <a href="https://github.com/KatLeviathan/SQL-the-sequel" target="_blank">
+                        <img src="assets/SQL.png" alt="Sequelize">
+                    </a>
+                    <a href="https://github.com/KatLeviathan/SQL-the-sequel" target="_blank">View Repo</a>
+                </div>
+                
+            </div>
         </section>
+        
         <section id="contact">
             <h2>Contact</h2>
-            <form id="contact-form">
+            <form id="contact-form" action="https://formspree.io/f/xovaddzv" method="POST">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
                 <label for="email">Email:</label>
@@ -40,11 +88,13 @@
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" required></textarea>
                 <button type="submit">Send</button>
+                <p id="form-success" style="display:none;">Your message has been sent successfully!</p>
+                <p id="form-error" style="display:none;">There was an error sending your message. Please try again.</p>
             </form>
         </section>
         <section id="resume">
             <h2>Resume</h2>
-            <a href="assets/Alexis-Brown-Renshaw.pdf" download>Download Resume</a>
+            <a href="assets/Alexis Resume.pdf" download>Download Resume</a>
             <h3>Proficiencies</h3>
             <ul>
                 <li>HTML</li>
@@ -52,7 +102,17 @@
                 <li>JavaScript</li>
                 <li>React</li>
                 <li>Node.js</li>
-                <!-- Add more proficiencies -->
+                <li>API's (Web, Server and Third-Party)</li>
+                <li>NodeJS</li>
+                <li>OOP (Object-Oriented Programming)</li>
+                <li>Express</li>
+                <li>PostgreSQL</li>
+                <li>MVC (Model-View Controller)</li>
+                <li>NoSQL</li>
+                <li>PWA (Progressive Web Applications)</li>
+                <li>React</li>
+                <li>MERN</li>
+                <li>State</li>
             </ul>
         </section>
     </main>
