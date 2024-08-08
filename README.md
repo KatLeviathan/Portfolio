@@ -15,3 +15,4 @@ no installation necessary
 
 Please take a look at what I have to offer as a Developer and see
 
+https://dapper-pithivier-34d750.netlify.app/#about-me
